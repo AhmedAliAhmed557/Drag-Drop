@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: blueviolet;
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+}
+
+.add h2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.add input {
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  outline: snow;
+  border: 1px solid #ddd;
+  outline: none;
+  height: 30px;
+  border-radius: 4px;
+  width: 90%;
+}
+.add button {
+  width: 90%;
+  color: white;
+  background-color: blueviolet;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  padding: 3px;
+  height: 30px;
+  outline: none;
+}
+
+.boxs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 40px 0 0;
+  display: flex;
+  align-items: flex-start;
+  /* very important for me 
+        align-items: flex-start;
+  */
+}
+
+.boxs .box {
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  width: 22%;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+.boxs .item {
+  background-color: blueviolet;
+  color: white;
+  margin: 4px;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: move;
+  user-select: none;
+  font-size: 20px;
+}
+.delet {
+  position: absolute;
+  bottom: 0;
+}
